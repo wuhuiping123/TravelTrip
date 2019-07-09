@@ -1,0 +1,97 @@
+		<!--header-->
+		
+		<div class="header">
+			<div class="top_header_w3layouts">
+				<div class="container">
+					<!--bootstrap.css中*:before,*:after{box-sizing:border-box}
+					border-box定义的盒子，不会随着padding/margin和boder的加入而增大盒子的占用空间-->
+					<div class="header_left">
+						<ul>
+							<li>
+								<i class="fa fa-map-marker" aria-hidden="true">
+								</i>
+								1143 New York,USA
+							</li>
+							<li>
+								<i class="fa fa-phone">
+									<!--:before-->
+								</i>
+								 +(010) 221 918 811
+							</li>
+							<li>
+								<i class="fa fa-envelope-o">
+									<!--:before-->
+								</i>
+								
+								<a href="mail.info@example.com" target="_blank">info@example.com</a>
+							</li>
+						</ul>
+					</div>
+					<div class="header_right">
+						<a href="login.html">LOGIN | REGISTER</a>
+					</div>
+					<div class="clearfix">
+						<!--bootstrap.css里display: table;content: " ";-->
+					</div>
+				</div>
+			</div>
+			
+			<div class="content white">
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="container">
+						<div class="navbar-header">
+							<!--三横线导航菜单-->
+							<!--data-toggle指以什么事件触发,data-target指事件的目标-->
+							<!--一起使用表示data-target所指的元素以data-toggle指定的形式显示-->
+							<button type="button" class="navbar-toggle" data-toggle = "collapse" data-target = "#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<!--class="navbar-brand"：导航栏中放logo图标的样式，在a标签中用这个类让文字跟图标大小一致-->
+							<a class="navbar-brand" href="index.html">
+								<h1>Travel Trip</h1>
+							</a>
+							
+						</div>
+						<!--class="collapse":设置button元素为在视口小于768px时才显示；默认折叠-->
+						<div class="collapse navbar-collapse" data-toggle = "collapse" id="bs-example-navbar-collapse-1" aria-expanded="true">
+							<nav>
+								<ul class="nav navbar-nav">
+									<li>
+										<a href="#" class="active" onclick="window.location.href='index.html'">HOME</a>
+									</li>
+									<li>
+										<a href="#" onclick="location.href='about.html'">ABOUT</a>
+									</li>
+									<li>
+										<a href="#" onclick="location.href='gallery.html'">GALLERY</a>
+									</li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle = "dropdown">
+											PAGES
+											<b class="caret"></b>
+										</a>
+										<ul class="dropdown-menu">
+											<li>
+												<a href="#" onclick="location.href='pages.html'">Icons</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#" onclick="location.href='pages.html'">Icons</a>
+											</li>
+											<li class="divider"></li>
+										</ul>
+									</li>
+									<li>
+										<a href="#" onclick="location.href='mailus.html'">MAIL US</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</nav>
+			</div>
+			
+		</div>

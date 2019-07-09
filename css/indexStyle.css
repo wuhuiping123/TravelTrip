@@ -1,0 +1,648 @@
+/*banner轮播*/
+
+ol {
+	margin-bottom: 44px;
+}
+
+.carousel-indicators {
+	bottom: 5%;
+	left: 50%;
+}
+
+.carousel .item {
+	/*使用线性渐变创建背景图像。*/
+	background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/1.jpg) no-repeat;
+	/*把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。*/
+	background-size: cover;
+}
+
+.carousel .item2 {
+	background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/2.jpg) no-repeat;
+	background-size: cover;
+}
+
+.carousel .item3 {
+	background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/3.jpg) no-repeat;
+	background-size: cover;
+}
+
+.carousel-caption {
+	position: inherit;
+	/*规定应该从父元素继承 position 属性的值。*/
+	min-height: 680px!important;
+	padding-top: 15em;
+	text-align: center;
+}
+
+.carousel-caption h2,
+.carousel-caption h3 {
+	font-size: 3em;
+	font-weight: 100;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	/*定义文本全是大写*/
+	line-height: 1.5em;
+}
+
+.carousel-caption h2 span,
+.carousel-caption h3 span {
+	font-weight: 700;
+	color: #cb1def;
+	display: block;
+}
+
+.carousel-caption p {
+	letter-spacing: 7px;
+	font-size: 1.1em;
+	font-weight: 300;
+	color: #fff;
+	margin: 1em 0 1em 0;
+}
+
+.carousel-control {
+	line-height: 32em;
+}
+
+/*about-main*/
+
+.about-main {
+	padding: 5em 0;
+}
+
+.wthree_head_section {
+	margin-bottom: 5em;
+}
+
+.w3l_header {
+	font-size: 3em;
+	color: #262c38;
+	letter-spacing: 1px;
+	position: relative;
+	font-weight: 600;
+	text-align: center;
+}
+
+.w3l_header:after {
+	border-top: 2px solid #89379a;
+	display: block;
+	width: 81px;
+	content: "";
+	margin: 8px auto 0;
+}
+
+.w3l_header span {
+	color: #545151;
+	font-weight: 200;
+}
+
+.wthree_head_section p {
+	font-size: 15px;
+	text-align: center;
+	margin: 20px auto;
+	width: 60%;
+	color: #5e5e5e;
+	line-height: 1.8em;
+}
+
+.about-grid1 {
+	background: url(../img/g8.jpg) no-repeat center;
+	background-size: cover;
+	min-height: 450px;
+	border: 1px solid #d6d6d6;
+}
+
+.about-grid2 {
+	padding: 0em 0 0 4em;
+}
+
+.about-subgrid p {
+	color: #000;
+	text-transform: capitalize;
+	font-size: 1.8em;
+	font-weight: bold;
+	font-style: italic;
+	margin: 0;
+}
+
+.about-subgrid h2 {
+	font-size: 2.2em;
+	text-transform: uppercase;
+	color: #000;
+	margin: 0.5em 0;
+	display: inline-block;
+	border-right: 5px double #89379a;
+	padding-right: 10px;
+}
+
+.about-subgrid span {
+	color: #000;
+	font-weight: 800;
+	font-size: 1em;
+	padding-left: 27px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.about-subgrid h5 {
+	color: #000;
+	font-size: 1.5em;
+	text-transform: capitalize;
+	margin: 1em 0;
+	border: 2px solid #89379a;
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+ul.w3l-about-list {
+	padding: 0em 0 0 2em;
+}
+
+ul.w3l-about-list li {
+	list-style-type: square;
+	font-size: 1.2em;
+	color: #000;
+	line-height: 2;
+	letter-spacing: 0.5px;
+	font-style: italic;
+	font-weight: 600;
+}
+
+
+/*stats*/
+
+.stats {
+	background: url(../img/3.jpg) no-repeat 0px 0px;
+	background-size: cover;
+	text-align: center;
+	background-attachment: fixed;
+}
+
+.agile_overlay2 {
+	background: url(../img/overlay.png) repeat;
+	background-size: cover;
+	padding: 5em 0;
+}
+
+h3.w3l_header.ttt,
+h3.w3l_header.ttt span,
+p.ppp {
+	color: #fff;
+}
+
+.w3layouts_stats_left {
+	padding: 1em 0 4em 0;
+	text-align: center;
+}
+
+.w3layouts_stats_left i {
+	font-size: 2.5em;
+	color: #fff;
+}
+
+.w3layouts_stats_left p {
+	font-size: 2em;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #fff;
+	margin: 0.5em 0;
+}
+
+.w3layouts_stats_left h3 {
+	font-size: 1.3em;
+	color: #d611ff;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+
+/*service*/
+
+.services {
+	padding: 5em 0;
+}
+
+.one,
+.two {
+	margin-bottom: 30px;
+}
+
+.up-border {
+	padding: 25px 18px;
+	box-shadow: 2px 15px 70px 2px rgba(144, 130, 130, 0.28);
+	background: #fff;
+	transition: 0.5s ease-in;
+}
+
+.our-advantages-grid-left {
+	margin: 0 0 19px;
+	text-align: center;
+	line-height: 73px;
+	height: 64px;
+	width: 64px;
+	border-radius: 160px;
+	background: #89379a;
+}
+
+.our-advantages-grid-left span {
+	color: #fff;
+	font-size: 26px;
+}
+
+.our-advantages-grid-right h4 {
+	font-size: 20px;
+	color: #000;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	line-height: 31px;
+}
+
+.our-advantages-grid-to-right {
+	padding: 0;
+	border-left: 2px solid #89379A;
+	padding-left: 18px;
+	text-align: center;
+	/*height: 100px;*/
+}
+
+.our-advantages-grid-to-right p {
+	color: #999;
+	font-size: 14px;
+	margin: 0;
+	line-height: 26px;
+}
+
+.icons-left {
+	/*font-size: 20px;*/
+	margin-right: 20px;
+	color: #89379A;
+}
+
+.our-advantages-grid-to-right a {
+	color: #000;
+	text-decoration: none;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 25px;
+	display: inline-block;
+	transition: 0.5s all;
+	outline: none;
+	border: 1px solid #000;
+	padding: 8px 24px;
+	border-radius: 20px;
+	letter-spacing: 2px;
+	background-color: white;
+}
+
+.our-advantages-grid-to-right a:hover {
+	background-color: #89379A;
+	border: 1px solid #89379A;
+	color: white;
+}
+
+.up-border:hover {
+	box-shadow: 2px 15px 70px 2px rgba(100, 100, 100, 0.1);
+	/*transition: 0.4s ease-out;*/
+}
+
+
+/*testimonials*/
+
+.testimonials {
+	background: url(../img/2.jpg)no-repeat center;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 460px;
+}
+
+.test_agile_info {
+	background: rgba(0, 0, 0, 0.63);
+	padding: 5em 0;
+}
+
+.nbs-flexisel-container {
+	position: relative;
+	max-width: 100%;
+}
+
+.nbs-flexisel-inner {
+	overflow: hidden;
+	margin: 0px auto;
+}
+
+#flexiselDemo1 {
+	/*display: none;*/
+}
+
+.nbs-flexisel-ul {
+	position: relative;
+	width: 9999px;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.nbs-flexisel-item {
+	float: left;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	line-height: 0px;
+}
+
+.wthree_testimonials_grid {
+	position: relative;
+	margin: 2em auto 0;
+	padding: 3em 5em 2em;
+	text-align: center;
+	border: 6px solid white;
+}
+
+.wthree_testimonials_grid1,
+.wthree_testimonials_grid {
+	width: 70%;
+}
+
+.wthree_testimonials_grid h4 {
+	font-size: 2.8em;
+	color: #fff;
+	line-height: 1.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.wthree_testimonials_grid p {
+	color: #fff;
+	line-height: 2.3em;
+	margin: 1em 0;
+	font-size: 1em;
+	letter-spacing: 1px;
+}
+
+.wthree_testimonials_grid h5 {
+	font-size: 1.1em;
+	color: #ffae00;
+	margin: 1.5em 0 1em;
+}
+
+.wthree_testimonials_grid_pos img {
+	border-radius: 50%;
+	margin: 1em auto 0;
+	width: 11%;
+}
+
+.nbs-flexisel-nav-left {
+	left: 13%;
+	background: url(../img/left.png) no-repeat no-repeat 3px 6px #89379a;
+}
+
+.nbs-flexisel-nav-right {
+	right: 13%;
+	background: url(../img/right.png) no-repeat no-repeat 3px 6px #89379a;
+}
+
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+	width: 36px;
+	height: 48px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 100;
+	top: 47% !important;
+}
+
+
+/*button-w3*/
+
+.button-w3 {
+	padding: 5em 0;
+}
+
+.bottom-head p {
+	font-size: 14px;
+	color: #000;
+	padding: 0em;
+	margin: 0 auto;
+	width: 50%;
+}
+
+.post {
+	width: 60%;
+	margin: 0 auto;
+	padding: 22px 0px;
+}
+
+.letter input[type="email"] {
+	outline: none;
+	border: 1px solid #89379a;
+	color: #fff;
+	font-size: 14px;
+	padding: 10px;
+	width: 70%;
+	float: left;
+	background: #000;
+}
+
+.newsletter input[type="submit"] {
+	outline: none;
+	display: inline-block;
+	border: 2px solid #89379a;
+	color: #fff;
+	font-size: 16px;
+	padding: 8px 0;
+	font-weight: 700;
+	width: 30%;
+	background: #89379a;
+	transition: 0.5s all;
+}
+
+.newsletter input[type="submit"]:hover {
+	background-color: #000
+}
+
+
+/*媒体查询*/
+
+@media (max-width: 991px) {
+	.w3layouts_stats_left.w3_counter_grid,
+	.w3layouts_stats_left.w3_counter_grid1,
+	.w3layouts_stats_left.w3_counter_grid2,
+	.w3layouts_stats_left.w3_counter_grid3 {
+		float: left;
+		width: 50%;
+	}
+	.w3layouts_stats_left {
+		padding: 1em 0 2em 0;
+	}
+	.our-advantages-grid.one,
+	.our-advantages-grid.three,
+	.our-advantages-grid.two,
+	.our-advantages-grid {
+		width: 100%;
+	}
+	.our-advantages-grid-left {
+		float: left;
+	}
+	.our-advantages-grid-right {
+		float: left;
+	}
+	.wthree_testimonials_grid1,
+	.wthree_testimonials_grid {
+		width: 100%;
+	}
+	.nbs-flexisel-nav-left {
+		left: 0%;
+	}
+	.nbs-flexisel-nav-right {
+		right: 0%;
+	}
+	.post {
+		width: 90%;
+	}
+}
+
+@media (max-width: 767px) {
+	.about-main {
+		padding: 3em 0;
+	}
+	.wthree_head_section {
+		margin-bottom: 3em;
+	}
+	.agile_overlay2 {
+		padding: 3em 0;
+	}
+	.services {
+		padding: 3em 0;
+	}
+	.test_agile_info {
+		padding: 3em 0;
+	}
+	.button-w3 {
+		padding: 3em 0;
+	}
+}
+
+@media (max-width: 640px) {
+	h1,
+	.h1,
+	h2,
+	.h2,
+	h3,
+	.h3 {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.our-advantages-grid-to-right {
+		float: right;
+		/*width: 56%;*/
+	}
+}
+
+@media (max-width: 600px) {
+	.carousel-caption p {
+		letter-spacing: 1px;
+		font-size: 1em;
+		margin: 0.5em 0 1em 0;
+	}
+	.about-grid2 {
+		padding: 2em 0em 0 0em;
+	}
+	.wthree_testimonials_grid {
+		padding: 3em 2em 2em;
+	}
+	.wthree_testimonials_grid p {
+		line-height: 1.8em;
+	}
+	.wthree_testimonials_grid_pos img {
+		width: 25%;
+	}
+}
+
+@media (max-width:480px) {
+	.carousel-control {
+		line-height: 19.5em;
+	}
+	.wthree_head_section p {
+		margin: 20px auto 0;
+		width: 100%;
+	}
+	.our-advantages-grid-right {
+		width: 60%;
+	}
+	.our-advantages-grid-right h4 {
+		line-height: 60px;
+	}
+	.our-advantages-grid-to-right {
+		width: 100%;
+	}
+	.bottom-head p {
+		width: 100%;
+	}
+	
+	
+	
+	
+	.carousel-caption {
+		min-height: 320px!important;
+		padding-top: 3em;
+	}
+	.carousel-caption h2,
+	.carousel-caption h3 {
+		font-size: 1.8em;
+		font-weight: 100;
+		letter-spacing: 2px;
+	}
+	
+	
+	
+	
+	
+	
+	.carousel-indicators {
+		bottom: -9%;
+		left: 50%;
+	}
+	.w3l_header,
+	.wthree_testimonials_grid h4 {
+		font-size: 2.2em;
+	}
+	.about-grid1 {
+		min-height: 260px;
+	}
+}
+
+/*@media (max-width: 440px) {
+	.carousel-caption {
+		min-height: 320px!important;
+		padding-top: 3em;
+	}
+	.carousel-caption h2,
+	.carousel-caption h3 {
+		font-size: 1.8em;
+		font-weight: 100;
+		letter-spacing: 2px;
+	}
+}
+
+@media (max-width: 414px) {
+	.carousel-indicators {
+		bottom: -9%;
+		left: 50%;
+	}
+	.w3l_header,
+	.wthree_testimonials_grid h4 {
+		font-size: 2.2em;
+	}
+	.about-grid1 {
+		min-height: 260px;
+	}
+	.footer-grid.w3social {
+		float: left;
+		width: 100%;
+		margin-bottom: 1.5em;
+	}
+	.footer-grid {
+		float: left;
+		width: 100%;
+	}
+}*/
