@@ -71,3 +71,6 @@
 	background-color: #fff;
 	border-color: #89379A;
 }
+.btn:focus{
+	color: #fff;
+}
